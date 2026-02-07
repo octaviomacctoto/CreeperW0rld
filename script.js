@@ -4,3 +4,4 @@ function copiarIP() {
 
     document.getElementById("msg").innerText = "✅ IP copiada al portapapeles";
 }
+
