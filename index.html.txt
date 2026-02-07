@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CreeperWorld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>💣 CreeperWorld 💣</h1>
+        <p>El mejor servidor survival de Minecraft</p>
+    </header>
+
+    <section class="card">
+        <h2>📡 IP DEL SERVIDOR</h2>
+        <p id="ip">creeperworld.aternos.me</p>
+        <button onclick="copiarIP()">COPIAR IP</button>
+        <p id="msg"></p>
+    </section>
+
+    <section class="card">
+        <h2>📜 Reglas</h2>
+        <ul>
+            <li>No griefing</li>
+            <li>No hacks</li>
+            <li>Respeto entre jugadores</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>👮 Staff</h2>
+        <ul>
+            <li>Admin: Octavio</li>
+            <li>Mod: Steve</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>⚔️ Modalidades</h2>
+        <ul>
+            <li>Survival</li>
+            <li>Eventos</li>
+            <li>Construcciones</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>🌍 CreeperWorld © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

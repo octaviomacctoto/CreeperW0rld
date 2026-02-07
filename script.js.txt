@@ -1,0 +1,6 @@
+function copiarIP() {
+    const ip = document.getElementById("ip").innerText;
+    navigator.clipboard.writeText(ip);
+
+    document.getElementById("msg").innerText = "✅ IP copiada al portapapeles";
+}
